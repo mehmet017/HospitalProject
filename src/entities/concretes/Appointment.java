@@ -1,6 +1,10 @@
 package entities.concretes;
 
+//6-Randevu:
+//            -id : otomatik üretilsin
+//            -hasta adı,Doktor,randevu tarihi
 public class Appointment {
+
     private static int count = 0;
     private int id;
     private Patients patient;
